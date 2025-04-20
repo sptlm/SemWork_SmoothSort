@@ -76,7 +76,7 @@ public class SmoothSort {
         int current = heap.size() - 1;
         int k = heap.get(current);
 
-        // Подъём вверх по дереву при необходимости
+        // Подъем вверх по дереву при необходимости
         while (current > 0) {
             iterations++;
             int j = i - leoNums.get(k);
